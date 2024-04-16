@@ -9,7 +9,7 @@ void reverse(int arr[], int n) {
     while(start<=end) {
         swap(arr[start], arr[end]);
         start++;
-        end--;
+        end-- ;
     }
 }
 
